@@ -37,7 +37,7 @@ public class Produto {
 	private float preco_produto;
 
 	@ManyToOne
-	@JsonIgnoreProperties("produto")
+	@JsonIgnoreProperties ("produto")
 	private Categoria categoria;
 
 	public Long getId() {
